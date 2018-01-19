@@ -1,0 +1,91 @@
+{
+  "@context" : "http://lobid.org/resources/context.jsonld",
+  "contribution" : [ {
+    "agent" : {
+      "altLabel" : "Nast, Thos",
+      "dateOfBirth" : "1840",
+      "dateOfDeath" : "1902",
+      "id" : "http://d-nb.info/gnd/118586513",
+      "label" : "Nast, Thomas",
+      "type" : [ "Person" ]
+    },
+    "role" : {
+      "id" : "http://id.loc.gov/vocabulary/relators/cre",
+      "label" : "Autor/in"
+    },
+    "type" : [ "Contribution" ]
+  } ],
+  "contributorOrder" : [ "http://d-nb.info/gnd/118586513" ],
+  "describedBy" : {
+    "dateCreated" : "20170227",
+    "dateModified" : "20170516",
+    "id" : "http://lobid.org/resources/CT001007323",
+    "label" : "lobid Ressource",
+    "sourceOrganization" : {
+      "id" : "http://lobid.org/organisations/DE-929#!",
+      "label" : "lobid Organisation"
+    }
+  },
+  "extent" : "1 Online-Ressource (1 Blatt)",
+  "fulltextOnline" : [ {
+    "id" : "http://nbn-resolving.de/urn:nbn:de:0128-1-62589",
+    "label" : "URN-Link"
+  } ],
+  "hasItem" : [ {
+    "describedBy" : {
+      "id" : "http://lobid.org/items/CT001007323:DE-929:",
+      "label" : "lobid Bestandsressource"
+    },
+    "heldBy" : {
+      "id" : "http://lobid.org/organisations/DE-929",
+      "label" : "lobid Organisation"
+    },
+    "id" : "http://lobid.org/items/CT001007323:DE-929:#!",
+    "itemOf" : {
+      "id" : "http://lobid.org/resources/CT001007323#!",
+      "label" : "lobid Ressource"
+    },
+    "label" : "lobid Bestandsressource",
+    "type" : [ "Item" ]
+  } ],
+  "hbzId" : "CT001007323",
+  "id" : "http://lobid.org/resources/CT001007323#!",
+  "isPartOf" : [ {
+    "hasSuperordinate" : [ {
+      "label" : "dilibri - digitale Sammlung Rheinland-Pfalz"
+    } ],
+    "type" : [ "IsPartOfRelation" ]
+  } ],
+  "language" : [ {
+    "id" : "http://id.loc.gov/vocabulary/iso639-2/eng",
+    "label" : "Englisch"
+  } ],
+  "medium" : [ {
+    "id" : "http://rdaregistry.info/termList/RDACarrierType/1018",
+    "label" : "Online-Ressource"
+  } ],
+  "note" : [ "Aus: Harpers Weekly, Nr. 1036, 04.11.1876, Seite 885" ],
+  "otherTitleInformation" : [ "Südstaatler laden Geldsäcke auf eine Waagschale. Die andere Schale ist mit Brot gefüllt. Sie hängt jedoch so hoch, dass die Menschen sie nicht erreichen können. [In der Zeichnung befinden sich zwei Textblöcke]" ],
+  "primaryForm" : [ {
+    "id" : "http://lobid.org/resources/HT019251797#!",
+    "label" : "lobid Ressource"
+  } ],
+  "publication" : [ {
+    "location" : "Koblenz",
+    "publishedBy" : "Landesbibliothekszentrum Rheinland-Pfalz",
+    "startDate" : "2017",
+    "type" : [ "PublicationEvent" ]
+  } ],
+  "responsibilityStatement" : [ "Th. Nast" ],
+  "sameAs" : [ {
+    "id" : "http://hub.culturegraph.org/resource/HBZ-CT001007323",
+    "label" : "Culturegraph Ressource"
+  } ],
+  "similar" : [ {
+    "id" : "http://nbn-resolving.de/urn:nbn:de:0128-1-62589",
+    "label" : "URN-Link"
+  } ],
+  "title" : "This will be a change",
+  "type" : [ "BibliographicResource", "Book" ],
+  "urn" : [ "urn:nbn:de:0128-1-62589" ]
+}

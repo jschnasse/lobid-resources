@@ -600,6 +600,11 @@
 <http://d-nb.info/gnd/118577018> <http://www.w3.org/2004/02/skos/core#altLabel> "Manfredi, Sicily, King"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://d-nb.info/gnd/118577018> <http://www.w3.org/2004/02/skos/core#altLabel> "Manfredo, Sicilia, Re"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://d-nb.info/gnd/118577018> <http://www.w3.org/2004/02/skos/core#altLabel> "Manfredus, Sicilia, Rex"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://d-nb.info/gnd/118586513> <http://d-nb.info/standards/elementset/gnd#dateOfBirth> "1840"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://d-nb.info/gnd/118586513> <http://d-nb.info/standards/elementset/gnd#dateOfDeath> "1902"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://d-nb.info/gnd/118586513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#Person> .
+<http://d-nb.info/gnd/118586513> <http://www.w3.org/2000/01/rdf-schema#label> "Nast, Thomas"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://d-nb.info/gnd/118586513> <http://www.w3.org/2004/02/skos/core#altLabel> "Nast, Thos"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://d-nb.info/gnd/118590111> <http://d-nb.info/standards/elementset/gnd#dateOfBirth> "1597"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 <http://d-nb.info/gnd/118590111> <http://d-nb.info/standards/elementset/gnd#dateOfDeath> "1639"^^<http://www.w3.org/2001/XMLSchema#gYear> .
 <http://d-nb.info/gnd/118590111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#Person> .
@@ -1814,6 +1819,7 @@
 <http://hub.culturegraph.org/resource/HBZ-BT000128754> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://hub.culturegraph.org/resource/HBZ-BT000168595> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://hub.culturegraph.org/resource/HBZ-CT001004829> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://hub.culturegraph.org/resource/HBZ-CT001007323> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://hub.culturegraph.org/resource/HBZ-CT003012479> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://hub.culturegraph.org/resource/HBZ-HT000009600> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://hub.culturegraph.org/resource/HBZ-HT000290078> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2000,6 +2006,12 @@
 <http://lobid.org/items/CT001004829:DE-929:#!> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Bestandsressource"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://lobid.org/items/CT001004829:DE-929:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/CT001004829:DE-929:> .
 <http://lobid.org/items/CT001004829:DE-929:> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Bestandsressource"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/items/CT001007323:DE-929:#!> <http://id.loc.gov/ontologies/bibframe/heldBy> <http://lobid.org/organisations/DE-929> .
+<http://lobid.org/items/CT001007323:DE-929:#!> <http://id.loc.gov/ontologies/bibframe/itemOf> <http://lobid.org/resources/CT001007323#!> .
+<http://lobid.org/items/CT001007323:DE-929:#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Item> .
+<http://lobid.org/items/CT001007323:DE-929:#!> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Bestandsressource"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/items/CT001007323:DE-929:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/CT001007323:DE-929:> .
+<http://lobid.org/items/CT001007323:DE-929:> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Bestandsressource"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://lobid.org/items/HT000009600:DE-260:Z%201009#!> <http://id.loc.gov/ontologies/bibframe/heldBy> <http://lobid.org/organisations/DE-260> .
 <http://lobid.org/items/HT000009600:DE-260:Z%201009#!> <http://id.loc.gov/ontologies/bibframe/itemOf> <http://lobid.org/resources/HT000009600#!> .
 <http://lobid.org/items/HT000009600:DE-260:Z%201009#!> <http://purl.org/lobid/lv#callNumber> "Z 1009"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -5725,6 +5737,32 @@
 <http://lobid.org/resources/CT001004829> <http://purl.org/dc/terms/modified> "20141002"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://lobid.org/resources/CT001004829> <http://schema.org/sourceOrganization> <http://lobid.org/organisations/DE-929#!> .
 <http://lobid.org/resources/CT001004829> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323#!> <http://id.loc.gov/ontologies/bibframe/contribution> _:bnodeDummy .
+<http://lobid.org/resources/CT001007323#!> <http://id.loc.gov/ontologies/bibframe/extent> "1 Online-Ressource (1 Blatt)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323#!> <http://id.loc.gov/ontologies/bibframe/hasItem> <http://lobid.org/items/CT001007323:DE-929:#!> .
+<http://lobid.org/resources/CT001007323#!> <http://id.loc.gov/ontologies/bibframe/note> "Aus: Harpers Weekly, Nr. 1036, 04.11.1876, Seite 885"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323#!> <http://id.loc.gov/ontologies/bibframe/responsibilityStatement> "Th. Nast"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323#!> <http://purl.org/dc/terms/isFormatOf> <http://lobid.org/resources/HT019251797#!> .
+<http://lobid.org/resources/CT001007323#!> <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-2/eng> .
+<http://lobid.org/resources/CT001007323#!> <http://purl.org/dc/terms/medium> <http://rdaregistry.info/termList/RDACarrierType/1018> .
+<http://lobid.org/resources/CT001007323#!> <http://purl.org/dc/terms/title> "This will be a change"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323#!> <http://purl.org/lobid/lv#contributorOrder> "http://d-nb.info/gnd/118586513"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323#!> <http://purl.org/lobid/lv#fulltextOnline> <http://nbn-resolving.de/urn:nbn:de:0128-1-62589> .
+<http://lobid.org/resources/CT001007323#!> <http://purl.org/lobid/lv#hbzID> "CT001007323"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323#!> <http://purl.org/lobid/lv#isPartOf> _:bnodeDummy .
+<http://lobid.org/resources/CT001007323#!> <http://purl.org/lobid/lv#urn> "urn:nbn:de:0128-1-62589"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323#!> <http://rdaregistry.info/Elements/u/P60493> "S\u00FCdstaatler laden Gelds\u00E4cke auf eine Waagschale. Die andere Schale ist mit Brot gef\u00FCllt. Sie h\u00E4ngt jedoch so hoch, dass die Menschen sie nicht erreichen k\u00F6nnen. [In der Zeichnung befinden sich zwei Textbl\u00F6cke]"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323#!> <http://schema.org/publication> _:bnodeDummy .
+<http://lobid.org/resources/CT001007323#!> <http://umbel.org/umbel#isLike> <http://nbn-resolving.de/urn:nbn:de:0128-1-62589> .
+<http://lobid.org/resources/CT001007323#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/BibliographicResource> .
+<http://lobid.org/resources/CT001007323#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Book> .
+<http://lobid.org/resources/CT001007323#!> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323#!> <http://www.w3.org/2002/07/owl#sameAs> <http://hub.culturegraph.org/resource/HBZ-CT001007323> .
+<http://lobid.org/resources/CT001007323#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/resources/CT001007323> .
+<http://lobid.org/resources/CT001007323> <http://purl.org/dc/terms/created> "20170227"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323> <http://purl.org/dc/terms/modified> "20170516"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/CT001007323> <http://schema.org/sourceOrganization> <http://lobid.org/organisations/DE-929#!> .
+<http://lobid.org/resources/CT001007323> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://lobid.org/resources/CT003012479#!> <http://id.loc.gov/ontologies/bibframe/contribution> _:bnodeDummy .
 <http://lobid.org/resources/CT003012479#!> <http://id.loc.gov/ontologies/bibframe/extent> "1 Plakat : sw ; 33 x 29 cm"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://lobid.org/resources/CT003012479#!> <http://id.loc.gov/ontologies/bibframe/responsibilityStatement> "die Musik ist von dem ber\u00C3\u00BChmten Kapellmeister Winter, Compositeur der Oper: Das unterbrochene Opferfest. [Textverf.: Alessandro Ercole Pepoli. \u00C3\u009Cbers. und arrang. von Carl Ludwig von Giesecke]. Personen: Madam Bilau, Herr Fuchs, Madam B\u00C3\u00B6hm d.j., Madam B\u00C3\u00B6hm d.\u00C3\u00A4., Herr Kellermann, Herr Dardenne, Herr Krug, Madam Annoni, Herr B\u00C3\u00B6hm"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -9507,6 +9545,7 @@
 <http://lobid.org/resources/HT019248596> <http://purl.org/dc/terms/modified> "20170426"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://lobid.org/resources/HT019248596> <http://schema.org/sourceOrganization> <http://lobid.org/organisations/DE-929#!> .
 <http://lobid.org/resources/HT019248596> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://lobid.org/resources/HT019251797#!> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Ressource"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://lobid.org/resources/HT019322941#!> <http://id.loc.gov/ontologies/bibframe/contribution> _:bnodeDummy .
 <http://lobid.org/resources/HT019322941#!> <http://id.loc.gov/ontologies/bibframe/extent> "1 Online-Ressource (376 Seiten)"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://lobid.org/resources/HT019322941#!> <http://id.loc.gov/ontologies/bibframe/hasItem> <http://lobid.org/items/HT019322941:DE-B23:Link#!> .
@@ -10060,6 +10099,7 @@
 <http://nbn-resolving.de/nbn:de:gbv:46:1-6622> <http://www.w3.org/2000/01/rdf-schema#label> "http://nbn-resolving.de/nbn:de:gbv:46:1-6622"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:hbz:061-20101201-135613-9> <http://www.w3.org/2000/01/rdf-schema#label> "URN-Link"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://nbn-resolving.de/urn:nbn:de:0128-1-37874> <http://www.w3.org/2000/01/rdf-schema#label> "URN-Link"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://nbn-resolving.de/urn:nbn:de:0128-1-62589> <http://www.w3.org/2000/01/rdf-schema#label> "URN-Link"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://nbn-resolving.de/urn:nbn:de:101:1-201602092139> <http://www.w3.org/2000/01/rdf-schema#label> "http://nbn-resolving.de/urn:nbn:de:101:1-201602092139"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://nbn-resolving.de/urn:nbn:de:bvb:12-bsb10057885-8> <http://www.w3.org/2000/01/rdf-schema#label> "http://nbn-resolving.de/urn:nbn:de:bvb:12-bsb10057885-8"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://nbn-resolving.de/urn:nbn:de:gbv:46:1-6622> <http://www.w3.org/2000/01/rdf-schema#label> "URN-Link"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -10353,6 +10393,7 @@ _:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <http://d-nb.info/gnd
 _:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <http://d-nb.info/gnd/118551655> .
 _:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <http://d-nb.info/gnd/118572865> .
 _:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <http://d-nb.info/gnd/118577018> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <http://d-nb.info/gnd/118586513> .
 _:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <http://d-nb.info/gnd/118590111> .
 _:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <http://d-nb.info/gnd/118594427> .
 _:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <http://d-nb.info/gnd/11860225X> .
@@ -11333,6 +11374,7 @@ _:bnodeDummy <http://www.w3.org/2000/01/rdf-schema#label> "\u0410\u043D\u0442\u0
 _:bnodeDummy <http://www.w3.org/2000/01/rdf-schema#label> "\u0418\u043D-\u0442 \u0441\u043E\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u044F (\u0444\u0438\u043B.) \u0420\u0413\u0421\u0423 \u0432 \u0433. \u0421\u0430\u0440\u0430\u0442\u043E\u0432\u0435"^^<http://www.w3.org/2001/XMLSchema#string> .
 _:bnodeDummy <http://www.w3.org/2000/01/rdf-schema#label> "\u041C\u0438\u043D\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043E \u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u044F \u0438 \u043D\u0430\u0443\u043A\u0438 \u0420\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u043E\u0439 \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u0438"^^<http://www.w3.org/2001/XMLSchema#string> .
 _:bnodeDummy <http://www.w3.org/2000/01/rdf-schema#label> "\u0420\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0438\u0439 \u0433\u043E\u0441. \u0441\u043E\u0446\u0438\u0430\u043B\u044C\u043D\u044B\u0439 \u0443\u043D-\u0442"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:bnodeDummy <http://www.w3.org/2000/01/rdf-schema#label> "dilibri - digitale Sammlung Rheinland-Pfalz"^^<http://www.w3.org/2001/XMLSchema#string> .
 _:bnodeDummy <http://www.w3.org/2004/02/skos/core#notation> "004.62"^^<http://www.w3.org/2001/XMLSchema#string> .
 _:bnodeDummy <http://www.w3.org/2004/02/skos/core#notation> "020"^^<http://www.w3.org/2001/XMLSchema#string> .
 _:bnodeDummy <http://www.w3.org/2004/02/skos/core#notation> "050"^^<http://www.w3.org/2001/XMLSchema#string> .
