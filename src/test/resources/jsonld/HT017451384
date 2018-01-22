@@ -56,6 +56,9 @@
     "note" : "Ersch. jährl.",
     "publishedBy" : "Motor Presse Stuttgart",
     "type" : [ "PublicationEvent" ]
+  }, {
+    "startDate" : "2014",
+    "type" : [ "SecondaryPublicationEvent" ]
   } ],
   "sameAs" : [ {
     "id" : "http://ld.zdb-services.de/resource/2690442-1",

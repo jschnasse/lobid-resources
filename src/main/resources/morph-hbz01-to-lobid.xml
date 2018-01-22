@@ -1686,18 +1686,80 @@
 		<data source="41[05][-abcu][-12].a|419-[12].a|594[-abc][-12].a" name="@placeOfPublication_"/>
 		<choose name="@placeOfPublication" flushWith="@placeOfPublication_">
 			<data source="@placeOfPublication_">
-				<regexp match="^\[.*\]"/>
+				<regexp match="^\[.*\]|^[sS]\.l\."/>
 				<replace pattern="^\[" with=""/>
 				<replace pattern="\]$" with=""/>
 				<replace pattern="[sS]\.l\." with=""/>
 			</data>
 			<data source="@placeOfPublication_"/>
 		</choose>
-		<data source="41[27][-abcu][-12].[ag]|419-[12].b" name="@publisher">
+		<!-- <data source="41[27][-abcu][-12].[ag]|419-[12].b" name="@publisher">
 			<replace pattern="&gt;" with=""/>
 			<replace pattern="&lt;" with=""/>
 			<replace pattern="^\[[sS]\.n\.\]$" with=""/>
-		</data>
+		</data> -->
+		<!-- <combine name="@publisher400s" value="${a}" reset="true">
+			<if>
+				<none>
+					<data source="649[ac][-1].e"/>
+				</none>
+			</if>
+			<data source="41[27][-abcu][-12].[ag]|419-[12].b" name="a">
+				<replace pattern="&gt;" with=""/>
+				<replace pattern="&lt;" with=""/>
+				<replace pattern="^\[[sS]\.n\.\]$" with=""/>
+			</data>
+		</combine> -->
+		<combine name="@publisher417" value="${a}">
+			<!-- <if>
+				<none>
+					<data source="649[ac][-1].e"/>
+				</none>
+			</if> -->
+			<data source="417[-abcu][-12].[ag]" name="a">
+				<replace pattern="&gt;" with=""/>
+				<replace pattern="&lt;" with=""/>
+				<replace pattern="^\[[sS]\.n\.\]$" with=""/>
+			</data>
+		</combine>
+		<combine name="@649exists" value="${a}">
+			<choose name="a">
+				<data source="649[ac][-1].e"/>
+				<data source="001??.?">
+					<regexp match=".*" format=" "/>
+				</data>
+			</choose>
+		</combine>
+		<combine name="@publisher419" value="${a}|${b}" >
+			<data source="649[ac][-1].e" name="a"/>
+			<data source="412[-abcu][-12].[ag]|417[-abcu][-12].[ag]|419-[12].b" name="b">
+				<replace pattern="&gt;" with=""/>
+				<replace pattern="&lt;" with=""/>
+				<replace pattern="^\[[sS]\.n\.\]$" with=""/>
+			</data>
+		</combine>
+
+		<!-- <combine name="@publisher" value="${a}" flushWith="@publisher400s">
+			<choose name="a" flushWith="@publisher400s|649[ac][-1].e">
+				<data source="649[ac][-1].e"/>
+				<data source="@publisher400s"/>
+			</choose>
+		</combine> -->
+		<!-- <combine name="@649e" value="${a}">
+			<data source="@649[ac][-1].e" name="a"/>
+		</combine>
+		<combine name="@publisher" value="${a}" flushWith="@publisher400s">
+			<if>
+				<none> -->
+					<!-- <data source="649[ac][-1].e"/> -->
+					<!-- <data source="@649e"/>
+				</none>
+			</if>
+			<data source="@publisher400s"/>
+		</combine>
+		<combine name="@publisher" value="${a}" flushWith="@649e">
+			<data source="@649e" name="a"/>
+		</combine> -->
 		<choose name="@startDateFirstPublication">
 			<!-- issue precedence -->
 			<!-- Multiple resource have [determined] volume numbers in this field. -->
@@ -1705,6 +1767,9 @@
 				<none>
 					<data source="425-[-1].a">
 						<regexp match="-(\d{4})|-....."/>
+					</data>
+					<data source="649[ac][-1].f">
+						<regexp match="^[0-9].*"/>
 					</data>
 				</none>
 			</if>
@@ -1715,21 +1780,91 @@
 				<regexp match="(.*)\. (1\d{3})|(.*)\. (20\d{2})" format="${2}"/>
 			</data>
 		</choose>
+		<choose name="@startDateFirstPublication">
+			<data source="649[ac][-1].f">
+				<regexp match="^\d{1,4}$"/>
+			</data>
+			<data source="649[ac][-1].f">
+				<regexp match="^(\d{2})\.(\d{2})\.(\d{4})" format="${3}-${2}-${1}"/>
+			</data>
+		</choose>
+		
+		<combine name="@649AndPublishers" value="${a}">
+			<data source="649[ac][-12].e" name="a"/>
+			<data source="41[27][-abcu][-12].[ag]|419-[12].b"/>
+		</combine>
+		
 		<entity name="http://schema.org/publication" flushWith="record">
 			<data source="@placeOfPublication" name="http://schema.org/location"/>
-			<data source="@publisher" name="http://schema.org/publishedBy"/>
+			<!-- <data source="@publisher" name="http://schema.org/publishedBy"/> -->
+			<!-- <combine name="http://schema.org/publishedBy" value="${a}">
+				<data source="@publisher412" name="a"/>
+			</combine>
+			<combine name="http://schema.org/publishedBy" value="${a}">
+				<data source="@publisher417" name="a"/>
+			</combine> -->
+			<!-- <combine name="http://schema.org/publishedBy" value="${a}" 
+				flushWith="41[27][-abcu][-12].[ag]|419-[12].b|@649AndPublishers"> -->
+				<!-- <if>
+					<none>
+						<data source="649[ac][-12].e"/>
+					</none>
+				</if> -->
+				<!-- <choose name="a" flushWith="41[27][-abcu][-12].[ag]|419-[12].b|@649AndPublishers"> -->
+					<!-- <data source="649[ac][-12].e"/> -->
+					<!-- <data source="@649AndPublishers"/>
+					<data source="41[27][-abcu][-12].[ag]|419-[12].b"/>
+				</choose>
+			</combine> -->
+			
+			<!-- <combine name="http://schema.org/publishedBy" value="${a}" 
+				sameEntity="true" flushWith="@publisher419">
+				<data source="@publisher419" name="a">
+					<regexp match="^(.*)\|(.*)$" format="${1}"/>
+				</data>
+			</combine> -->
+			<combine name="http://schema.org/publishedBy" value="${a}" 
+				sameEntity="true">
+				<data source="649[ac][-12].e" name="a"/>
+			</combine>
+			<combine name="http://schema.org/publishedBy" value="${a}">
+				<!-- <if>
+					<none> -->
+						<!-- <data source="@publisher419"/> -->
+						<!-- <data source="649[ac][-12].e"/>
+					</none>
+				</if> -->
+				<data source="41[27][-abcu][-12].[ag]|419-[12].b" name="a">
+					<replace pattern="&gt;" with=""/>
+					<replace pattern="&lt;" with=""/>
+					<replace pattern="^\[[sS]\.n\.\]$" with=""/>
+				</data>
+				<!-- <data source="649[ac][-1].e" name="a">
+					<replace pattern="&gt;" with=""/>
+					<replace pattern="&lt;" with=""/>
+					<replace pattern="^\[[sS]\.n\.\]$" with=""/>
+				</data> -->
+			</combine>
 			<data source="@startDateFirstPublication" name="http://schema.org/startDate"/>
 			<!-- range of date. Only if 021 not exists but 425c. Take 4 digits. -->
 			<choose name="http://schema.org/endDate">
 				<if>
 					<none>
 						<data source="021[-b]1.a"/>
+						<data source="649[ac][-1].f">
+							<regexp match="-\d{1}"/>
+						</data>
 					</none>
 				</if>
 				<data source="425c[-1].a">
 					<regexp match="[12]\d{3}"/>
 				</data>
 			</choose>
+			<combine name="http://schema.org/endDate" value="${a}">
+				<data source="649[ac][-1].f" name="a">
+					<regexp match="-(\d{1}.*)" format="${1}"/>
+				</data>
+			</combine>
 			<!-- ####################### -->
 			<!-- ########## frequency -->
 			<!-- ####################### -->
@@ -1768,7 +1903,7 @@
 		<data source="610[-a]1.a" name="@descriptionOfSecondaryPublication"/>
 		<data source="611[-a]1.a" name="@placeOfSecondaryPublication"/>
 		<data source="613[-a]1.a" name="@secondaryPublisher"/>
-		<choose name="@startDateSecondaryPublication">
+		<choose name="@startDateSecondaryPublication619">
 			<data source="619[-ab][-1].b">
 				<regexp match="([12]\d{3})" format="${1}"/>
 			</data>
@@ -1782,7 +1917,23 @@
 				<regexp match="([12]\d{3})" format="${1}"/>
 			</data>
 		</choose>
-		<choose name="@endDateSecondaryPublication">
+		<combine name="@startDateSecondaryPublication" value="${a}">
+			<if>
+				<none>
+					<data source="649[ac][-1].f"/>
+				</none>
+			</if>
+			<data source="@startDateSecondaryPublication619" name="a"/>
+		</combine>
+		<choose name="@startDateSecondaryPublication" flushWith="649[ac][-1].f">
+			<data source="425[ab-p][-1].a|419-1c|595-[-12].a">
+				<regexp match="1\d{3}|20\d{2}"/>
+			</data>
+			<data source="089-[-1].a">
+				<regexp match="(.*)\. (1\d{3})|(.*)\. (20\d{2})" format="${2}"/>
+			</data>
+		</choose>
+		<choose name="@endDateSecondaryPublication619">
 			<data source="619[-ab][-1].c">
 				<regexp match="([12]\d{3})" format="${1}"/>
 			</data>
@@ -1790,6 +1941,22 @@
 				<regexp match="([12]\d{3}).[-/].([12]\d{3})" format="${2}"/>
 			</data>
 		</choose>
+		<combine name="@endDateSecondaryPublication" value="${a}">
+			<if>
+				<none>
+					<data source="649[ac][-1].f">
+						<regexp match="-\d{1}.*"/>
+					</data>
+				</none>
+			</if>
+			<data source="@endDateSecondaryPublication619" name="a"/>
+		</combine>
+		<combine name="@endDateSecondaryPublication" value="${a}">
+			<data source="649[ac][-1].f">
+				<regexp match="-\d{1}.*"/>
+			</data>
+			<data source="425c[-1].a" name="a"/>
+		</combine>
 		<entity name="http://schema.org/publication" flushWith="record">
 			<data source="@placeOfSecondaryPublication" name="http://schema.org/location"/>
 			<data source="@secondaryPublisher" name="http://schema.org/publishedBy"/>
