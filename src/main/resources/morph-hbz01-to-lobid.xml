@@ -1823,10 +1823,7 @@
 					<regexp match="^(.*)\|(.*)$" format="${1}"/>
 				</data>
 			</combine> -->
-			<combine name="http://schema.org/publishedBy" value="${a}" 
-				sameEntity="true">
-				<data source="649[ac][-12].e" name="a"/>
-			</combine>
+		
 			<combine name="http://schema.org/publishedBy" value="${a}">
 				<!-- <if>
 					<none> -->
@@ -1834,11 +1831,14 @@
 						<!-- <data source="649[ac][-12].e"/>
 					</none>
 				</if> -->
+				<choose >
+				<data source="649[ac][-12].e" name="a"/>
 				<data source="41[27][-abcu][-12].[ag]|419-[12].b" name="a">
 					<replace pattern="&gt;" with=""/>
 					<replace pattern="&lt;" with=""/>
 					<replace pattern="^\[[sS]\.n\.\]$" with=""/>
 				</data>
+				</choose>
 				<!-- <data source="649[ac][-1].e" name="a">
 					<replace pattern="&gt;" with=""/>
 					<replace pattern="&lt;" with=""/>
