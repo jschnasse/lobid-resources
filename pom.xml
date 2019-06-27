@@ -15,6 +15,11 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.metafacture</groupId>
+			<artifactId>metafacture-statistics</artifactId>
+			<version>master-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.metafacture</groupId>
 			<artifactId>metafacture-io</artifactId>
 			<version>master-SNAPSHOT</version>
 		</dependency>
