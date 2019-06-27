@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamorph xmlns="http://www.culturegraph.org/metamorph" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="1">
+	<rules>
+		<!-- ####################### -->
+		<!-- ####### Get subject uri of each record -->
+		<!-- ####################### -->
+<data source="003@.0" name="id"/>
+		<data source="044N.a" name="subject_vlb_ss"/>
+ 		<data source="_else"/>
+</rules>
+</metamorph>
+
