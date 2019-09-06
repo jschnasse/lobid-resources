@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamorph xmlns="http://www.culturegraph.org/metamorph" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="1">
+	<!-- beware: the sequence of the rules are semantically important! Don't change the order. -->
+	<!-- Aleph MAB differs from MAB in that: -->
+	<!-- an indicator2 exists -->
+	<!-- most fields have a subfield 'a' -->
+	<!-- => structure of alehp MAB: $field$indicator1$indicator2$subfield -->
+
+	<!-- Helping analyzing the data: give all the values of just one field -->
+	<rules>
+		<data source="001-[-1].a" name=""/>
+		<data source="425[ab-p][-1].a|419-1c|595-[-12].a" name="">
+			<regexp match="^\d*|^20\d{2}"/>
+		</data>
+	</rules>
+</metamorph>
