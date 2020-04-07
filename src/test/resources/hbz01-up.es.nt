@@ -1,0 +1,402 @@
+<http://creativecommons.org/publicdomain/zero/1.0> <http://www.w3.org/2000/01/rdf-schema#label> "Creative Commons-Lizenz CC0 1.0 Universal" .
+<http://deposit.d-nb.de/cgi-bin/dokserv?id=4675728&prov=M&dok_var=1&dok_ext=htm> <http://www.w3.org/2000/01/rdf-schema#label> "Klappentext" .
+<http://digitale-objekte.hbz-nrw.de/storage2/2015/06/06/file_12/6261756.pdf> <http://www.w3.org/2000/01/rdf-schema#label> "6261756.pdf" .
+<http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=6721516&custom_att_2=simple_viewer> <http://www.w3.org/2000/01/rdf-schema#label> "Digitool" .
+<http://dx.doi.org/10.3726/978-3-653-05265-7> <http://www.w3.org/2000/01/rdf-schema#label> "978-3-653-05265-7" .
+<http://hub.culturegraph.org/resource/HBZ-HT018290299> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource" .
+<http://hub.culturegraph.org/resource/HBZ-HT018939763> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource" .
+<http://hub.culturegraph.org/resource/HBZ-HT019440025> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource" .
+<http://hub.culturegraph.org/resource/HBZ-HT019578856> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource" .
+<http://hub.culturegraph.org/resource/HBZ-TT003060418> <http://www.w3.org/2000/01/rdf-schema#label> "Culturegraph Ressource" .
+<http://id.loc.gov/vocabulary/iso639-2/deu> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsch" .
+<http://id.loc.gov/vocabulary/iso639-2/eng> <http://www.w3.org/2000/01/rdf-schema#label> "Englisch" .
+<http://id.loc.gov/vocabulary/iso639-2/fra> <http://www.w3.org/2000/01/rdf-schema#label> "Französisch" .
+<http://id.loc.gov/vocabulary/iso639-2/por> <http://www.w3.org/2000/01/rdf-schema#label> "Portugiesisch" .
+<http://id.loc.gov/vocabulary/relators/cmp> <http://www.w3.org/2000/01/rdf-schema#label> "Komposition" .
+<http://id.loc.gov/vocabulary/relators/cnd> <http://www.w3.org/2000/01/rdf-schema#label> "Dirigent/in" .
+<http://id.loc.gov/vocabulary/relators/cre> <http://www.w3.org/2000/01/rdf-schema#label> "Autor/in" .
+<http://id.loc.gov/vocabulary/relators/ctb> <http://www.w3.org/2000/01/rdf-schema#label> "Mitwirkende" .
+<http://id.loc.gov/vocabulary/relators/edt> <http://www.w3.org/2000/01/rdf-schema#label> "Herausgeber/in" .
+<http://id.loc.gov/vocabulary/relators/isb> <http://www.w3.org/2000/01/rdf-schema#label> "Herausgeber/in" .
+<http://id.loc.gov/vocabulary/relators/lbt> <http://www.w3.org/2000/01/rdf-schema#label> "Libretto" .
+<http://id.loc.gov/vocabulary/relators/sng> <http://www.w3.org/2000/01/rdf-schema#label> "Gesang" .
+<http://lobid.org/hbz01/HT018290299> <http://purl.org/lobid/lv#inDataset> <https://datahub.io/dataset/hbz_unioncatalog> .
+<http://lobid.org/hbz01/HT018290299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataFeedItem> .
+<http://lobid.org/hbz01/HT018290299> <http://www.w3.org/2000/01/rdf-schema#label> "hbz-Ressource HT018290299 im Exportformat MAB2-XML" .
+<http://lobid.org/hbz01/HT018939763> <http://purl.org/lobid/lv#inDataset> <https://datahub.io/dataset/hbz_unioncatalog> .
+<http://lobid.org/hbz01/HT018939763> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataFeedItem> .
+<http://lobid.org/hbz01/HT018939763> <http://www.w3.org/2000/01/rdf-schema#label> "hbz-Ressource HT018939763 im Exportformat MAB2-XML" .
+<http://lobid.org/hbz01/HT019440025> <http://purl.org/lobid/lv#inDataset> <https://datahub.io/dataset/hbz_unioncatalog> .
+<http://lobid.org/hbz01/HT019440025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataFeedItem> .
+<http://lobid.org/hbz01/HT019440025> <http://www.w3.org/2000/01/rdf-schema#label> "hbz-Ressource HT019440025 im Exportformat MAB2-XML" .
+<http://lobid.org/hbz01/HT019578856> <http://purl.org/lobid/lv#inDataset> <https://datahub.io/dataset/hbz_unioncatalog> .
+<http://lobid.org/hbz01/HT019578856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataFeedItem> .
+<http://lobid.org/hbz01/HT019578856> <http://www.w3.org/2000/01/rdf-schema#label> "hbz-Ressource HT019578856 im Exportformat MAB2-XML" .
+<http://lobid.org/hbz01/TT003060418> <http://purl.org/lobid/lv#inDataset> <https://datahub.io/dataset/hbz_unioncatalog> .
+<http://lobid.org/hbz01/TT003060418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataFeedItem> .
+<http://lobid.org/hbz01/TT003060418> <http://www.w3.org/2000/01/rdf-schema#label> "hbz-Ressource TT003060418 im Exportformat MAB2-XML" .
+<http://lobid.org/organisations/DE-101#!> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Organisation" .
+<http://lobid.org/organisations/DE-38#!> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Organisation" .
+<http://lobid.org/organisations/DE-5#!> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Organisation" .
+<http://lobid.org/organisations/DE-5-141#!> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Organisation" .
+<http://lobid.org/organisations/DE-6#!> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Organisation" .
+<http://lobid.org/organisations/DE-929#!> <http://www.w3.org/2000/01/rdf-schema#label> "lobid Organisation" .
+<http://lobid.org/organisations/ZDB-114-LAC#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Collection> .
+<http://lobid.org/organisations/ZDB-114-LAC#!> <http://www.w3.org/2000/01/rdf-schema#label> "eResource package" .
+<http://lobid.org/resources/HT006514951#!> <http://www.w3.org/2000/01/rdf-schema#label> "Schriftenreihe des NS-Dokumentationszentrums der Stadt Köln" .
+<http://lobid.org/resources/HT013494180#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Collection> .
+<http://lobid.org/resources/HT013494180#!> <http://www.w3.org/2000/01/rdf-schema#label> "Rheinland-Pfälzische Bibliographie" .
+<http://lobid.org/resources/HT014176012#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Collection> .
+<http://lobid.org/resources/HT014176012#!> <http://www.w3.org/2000/01/rdf-schema#label> "Nordrhein-Westfälische Bibliographie (NWBib)" .
+<http://lobid.org/resources/HT016925914#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Collection> .
+<http://lobid.org/resources/HT016925914#!> <http://www.w3.org/2000/01/rdf-schema#label> "Edoweb Rheinland-Pfalz" .
+<http://lobid.org/resources/HT017500108#!> <http://www.w3.org/2000/01/rdf-schema#label> "Biografien & Materialien / NSDOK; NS-Dokumentationszentrum der Stadt Köln" .
+<http://lobid.org/resources/HT018290299#!> <http://id.loc.gov/ontologies/bibframe/contribution> _:bnodeDummy .
+<http://lobid.org/resources/HT018290299#!> <http://id.loc.gov/ontologies/bibframe/extent> "544 S. : Ill." .
+<http://lobid.org/resources/HT018290299#!> <http://id.loc.gov/ontologies/bibframe/responsibilityStatement> "Angelika Lehndorff-Felsko" .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/dc/elements/1.1/coverage> "Köln | 99" .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/dc/terms/description> <http://deposit.d-nb.de/cgi-bin/dokserv?id=4675728&prov=M&dok_var=1&dok_ext=htm> .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/dc/terms/description> <http://digitale-objekte.hbz-nrw.de/storage2/2015/06/06/file_12/6261756.pdf> .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-2/deu> .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/dc/terms/medium> <http://rdaregistry.info/termList/RDAproductionMethod/1010> .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/dc/terms/spatial> <https://nwbib.de/spatial#Q365> .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/dc/terms/subject> <https://nwbib.de/subjects#N240000> .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/dc/terms/tableOfContents> <http://digitale-objekte.hbz-nrw.de/storage2/2015/06/06/file_12/6261756.pdf> .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/dc/terms/title> "\"Uns verschleppten sie nach Köln ...\"" .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/lobid/lv#hbzID> "HT018290299" .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/lobid/lv#inCollection> <http://lobid.org/resources/HT014176012#!> .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/lobid/lv#isPartOf> _:bnodeDummy .
+<http://lobid.org/resources/HT018290299#!> <http://purl.org/ontology/bibo/isbn> "9783954513673" .
+<http://lobid.org/resources/HT018290299#!> <http://rdaregistry.info/Elements/u/P60493> "Auszüge aus 500 Interviews mit ehemaligen Zwangsarbeiterinnen und Zwangsarbeitern" .
+<http://lobid.org/resources/HT018290299#!> <http://schema.org/publication> _:bnodeDummy .
+<http://lobid.org/resources/HT018290299#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/BibliographicResource> .
+<http://lobid.org/resources/HT018290299#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Book> .
+<http://lobid.org/resources/HT018290299#!> <http://www.w3.org/2002/07/owl#sameAs> <http://hub.culturegraph.org/resource/HBZ-HT018290299> .
+<http://lobid.org/resources/HT018290299#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/resources/HT018290299> .
+<http://lobid.org/resources/HT018290299> <http://open-services.net/ns/core#modifiedBy> <http://lobid.org/organisations/DE-38#!> .
+<http://lobid.org/resources/HT018290299> <http://purl.org/dc/terms/created> "20140610" .
+<http://lobid.org/resources/HT018290299> <http://purl.org/dc/terms/modified> "20150326" .
+<http://lobid.org/resources/HT018290299> <http://purl.org/lobid/lv#inDataset> <http://lobid.org/resources/dataset#!> .
+<http://lobid.org/resources/HT018290299> <http://purl.org/lobid/lv#resultOf> _:bnodeDummy .
+<http://lobid.org/resources/HT018290299> <http://schema.org/license> <http://creativecommons.org/publicdomain/zero/1.0> .
+<http://lobid.org/resources/HT018290299> <http://schema.org/provider> <http://lobid.org/organisations/DE-101#!> .
+<http://lobid.org/resources/HT018290299> <http://schema.org/sourceOrganization> <http://lobid.org/organisations/DE-6#!> .
+<http://lobid.org/resources/HT018290299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/lobid/lv#BibliographicDescription> .
+<http://lobid.org/resources/HT018290299> <http://www.w3.org/2000/01/rdf-schema#label> "Webseite der hbz-Ressource HT018290299" .
+<http://lobid.org/resources/HT018939763#!> <http://id.loc.gov/ontologies/bibframe/contribution> _:bnodeDummy .
+<http://lobid.org/resources/HT018939763#!> <http://id.loc.gov/ontologies/bibframe/extent> "1 Online-Ressource (265 Seiten)" .
+<http://lobid.org/resources/HT018939763#!> <http://id.loc.gov/ontologies/bibframe/responsibilityStatement> "Juanito Ornelas de Avelar / Laura Álvarez López (eds.)" .
+<http://lobid.org/resources/HT018939763#!> <http://purl.org/dc/terms/hasVersion> <http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=6721516&custom_att_2=simple_viewer> .
+<http://lobid.org/resources/HT018939763#!> <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-2/por> .
+<http://lobid.org/resources/HT018939763#!> <http://purl.org/dc/terms/medium> <http://rdaregistry.info/termList/RDACarrierType/1018> .
+<http://lobid.org/resources/HT018939763#!> <http://purl.org/dc/terms/title> "Dinâmicas Afro-Latinas" .
+<http://lobid.org/resources/HT018939763#!> <http://purl.org/lobid/lv#hbzID> "HT018939763" .
+<http://lobid.org/resources/HT018939763#!> <http://purl.org/lobid/lv#inCollection> <http://lobid.org/organisations/ZDB-114-LAC#!> .
+<http://lobid.org/resources/HT018939763#!> <http://purl.org/ontology/bibo/doi> "10.3726/978-3-653-05265-7" .
+<http://lobid.org/resources/HT018939763#!> <http://purl.org/ontology/bibo/isbn> "9783631660249" .
+<http://lobid.org/resources/HT018939763#!> <http://purl.org/ontology/bibo/isbn> "9783653052657" .
+<http://lobid.org/resources/HT018939763#!> <http://rdaregistry.info/Elements/u/P60493> "língua(s) e história(s)" .
+<http://lobid.org/resources/HT018939763#!> <http://schema.org/publication> _:bnodeDummy .
+<http://lobid.org/resources/HT018939763#!> <http://umbel.org/umbel#isLike> <http://dx.doi.org/10.3726/978-3-653-05265-7> .
+<http://lobid.org/resources/HT018939763#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/BibliographicResource> .
+<http://lobid.org/resources/HT018939763#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Book> .
+<http://lobid.org/resources/HT018939763#!> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=6721516&custom_att_2=simple_viewer> .
+<http://lobid.org/resources/HT018939763#!> <http://www.w3.org/2002/07/owl#sameAs> <http://hub.culturegraph.org/resource/HBZ-HT018939763> .
+<http://lobid.org/resources/HT018939763#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/resources/HT018939763> .
+<http://lobid.org/resources/HT018939763> <http://open-services.net/ns/core#modifiedBy> <http://lobid.org/organisations/DE-38#!> .
+<http://lobid.org/resources/HT018939763> <http://purl.org/dc/terms/created> "20160412" .
+<http://lobid.org/resources/HT018939763> <http://purl.org/dc/terms/modified> "20160510" .
+<http://lobid.org/resources/HT018939763> <http://purl.org/lobid/lv#inDataset> <http://lobid.org/resources/dataset#!> .
+<http://lobid.org/resources/HT018939763> <http://purl.org/lobid/lv#resultOf> _:bnodeDummy .
+<http://lobid.org/resources/HT018939763> <http://schema.org/license> <http://creativecommons.org/publicdomain/zero/1.0> .
+<http://lobid.org/resources/HT018939763> <http://schema.org/sourceOrganization> <http://lobid.org/organisations/DE-38#!> .
+<http://lobid.org/resources/HT018939763> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/lobid/lv#BibliographicDescription> .
+<http://lobid.org/resources/HT018939763> <http://www.w3.org/2000/01/rdf-schema#label> "Webseite der hbz-Ressource HT018939763" .
+<http://lobid.org/resources/HT019378259#!> <http://www.w3.org/2000/01/rdf-schema#label> "Schriftenreihe des Landtags Rheinland-Pfalz" .
+<http://lobid.org/resources/HT019440025#!> <http://id.loc.gov/ontologies/bibframe/contribution> _:bnodeDummy .
+<http://lobid.org/resources/HT019440025#!> <http://id.loc.gov/ontologies/bibframe/extent> "1 Online-Ressource (89 Seiten)" .
+<http://lobid.org/resources/HT019440025#!> <http://id.loc.gov/ontologies/bibframe/responsibilityStatement> "Herausgeber: Der Präsident des Landtags Rheinland-Pfalz ; verantwortlich: Hans-Peter Hexemer, Leiter Kommunikation und neue Medien" .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/alternative> "Siebzig Jahre Parlament in Rheinland-Pfalz" .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/hasVersion> <https://www.edoweb-rlp.de/resource/edoweb:7011990> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-2/deu> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/medium> <http://rdaregistry.info/termList/RDACarrierType/1018> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/subject> <http://purl.org/lobid/rpb#n404320> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/subject> <https://w3id.org/lobid/rpb2#n106> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/subject> <https://w3id.org/lobid/rpb2#n130> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/subject> <https://w3id.org/lobid/rpb2#n131> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/subject> <https://w3id.org/lobid/rpb2#n139> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/subject> <https://w3id.org/lobid/rpb2#n147> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/subject> <https://w3id.org/lobid/rpb2#n330> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/subject> <https://w3id.org/lobid/rpb2#n610> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/subject> _:bnodeDummy .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/dc/terms/title> "70 Jahre Parlament in Rheinland-Pfalz" .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/lobid/lv#fulltextOnline> <https://www.edoweb-rlp.de/resource/edoweb:7011990> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/lobid/lv#hbzID> "HT019440025" .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/lobid/lv#inCollection> <http://lobid.org/resources/HT013494180#!> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/lobid/lv#inCollection> <http://lobid.org/resources/HT016925914#!> .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/lobid/lv#isPartOf> _:bnodeDummy .
+<http://lobid.org/resources/HT019440025#!> <http://purl.org/lobid/lv#urn> "urn:nbn:de:hbz:929:02-edoweb:70119907" .
+<http://lobid.org/resources/HT019440025#!> <http://rdaregistry.info/Elements/u/P60493> "Festveranstaltung am 22. November im Stadttheater Koblenz" .
+<http://lobid.org/resources/HT019440025#!> <http://rdaregistry.info/Elements/u/P60584> <https://d-nb.info/gnd/1071861417> .
+<http://lobid.org/resources/HT019440025#!> <http://rdaregistry.info/Elements/u/P60584> <https://d-nb.info/gnd/4142300-8> .
+<http://lobid.org/resources/HT019440025#!> <http://schema.org/publication> _:bnodeDummy .
+<http://lobid.org/resources/HT019440025#!> <http://umbel.org/umbel#isLike> <http://nbn-resolving.de/urn:nbn:de:hbz:929:02-edoweb:70119907> .
+<http://lobid.org/resources/HT019440025#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/BibliographicResource> .
+<http://lobid.org/resources/HT019440025#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Book> .
+<http://lobid.org/resources/HT019440025#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Proceedings> .
+<http://lobid.org/resources/HT019440025#!> <http://www.w3.org/2002/07/owl#sameAs> <http://hub.culturegraph.org/resource/HBZ-HT019440025> .
+<http://lobid.org/resources/HT019440025#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/resources/HT019440025> .
+<http://lobid.org/resources/HT019440025> <http://open-services.net/ns/core#modifiedBy> <http://lobid.org/organisations/DE-929#!> .
+<http://lobid.org/resources/HT019440025> <http://purl.org/dc/terms/created> "20170905" .
+<http://lobid.org/resources/HT019440025> <http://purl.org/dc/terms/modified> "20180218" .
+<http://lobid.org/resources/HT019440025> <http://purl.org/lobid/lv#inDataset> <http://lobid.org/resources/dataset#!> .
+<http://lobid.org/resources/HT019440025> <http://purl.org/lobid/lv#resultOf> _:bnodeDummy .
+<http://lobid.org/resources/HT019440025> <http://schema.org/license> <http://creativecommons.org/publicdomain/zero/1.0> .
+<http://lobid.org/resources/HT019440025> <http://schema.org/sourceOrganization> <http://lobid.org/organisations/DE-929#!> .
+<http://lobid.org/resources/HT019440025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/lobid/lv#BibliographicDescription> .
+<http://lobid.org/resources/HT019440025> <http://www.w3.org/2000/01/rdf-schema#label> "Webseite der hbz-Ressource HT019440025" .
+<http://lobid.org/resources/HT019578856#!> <http://id.loc.gov/ontologies/bibframe/contribution> _:bnodeDummy .
+<http://lobid.org/resources/HT019578856#!> <http://id.loc.gov/ontologies/bibframe/responsibilityStatement> "Maxine Berntsen ; Jai Nimbkar" .
+<http://lobid.org/resources/HT019578856#!> <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-2/eng> .
+<http://lobid.org/resources/HT019578856#!> <http://purl.org/dc/terms/medium> <http://rdaregistry.info/termList/RDAproductionMethod/1010> .
+<http://lobid.org/resources/HT019578856#!> <http://purl.org/dc/terms/subject> _:bnodeDummy .
+<http://lobid.org/resources/HT019578856#!> <http://purl.org/dc/terms/title> "An intermediate Marathi reader" .
+<http://lobid.org/resources/HT019578856#!> <http://purl.org/lobid/lv#hbzID> "HT019578856" .
+<http://lobid.org/resources/HT019578856#!> <http://purl.org/lobid/lv#isPartOf> _:bnodeDummy .
+<http://lobid.org/resources/HT019578856#!> <http://schema.org/publication> _:bnodeDummy .
+<http://lobid.org/resources/HT019578856#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/BibliographicResource> .
+<http://lobid.org/resources/HT019578856#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Book> .
+<http://lobid.org/resources/HT019578856#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/MultiVolumeBook> .
+<http://lobid.org/resources/HT019578856#!> <http://www.w3.org/2002/07/owl#sameAs> <http://hub.culturegraph.org/resource/HBZ-HT019578856> .
+<http://lobid.org/resources/HT019578856#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/resources/HT019578856> .
+<http://lobid.org/resources/HT019578856> <http://open-services.net/ns/core#modifiedBy> <http://lobid.org/organisations/DE-5-141#!> .
+<http://lobid.org/resources/HT019578856> <http://purl.org/dc/terms/created> "20180131" .
+<http://lobid.org/resources/HT019578856> <http://purl.org/dc/terms/modified> "20180213" .
+<http://lobid.org/resources/HT019578856> <http://purl.org/lobid/lv#inDataset> <http://lobid.org/resources/dataset#!> .
+<http://lobid.org/resources/HT019578856> <http://purl.org/lobid/lv#resultOf> _:bnodeDummy .
+<http://lobid.org/resources/HT019578856> <http://schema.org/license> <http://creativecommons.org/publicdomain/zero/1.0> .
+<http://lobid.org/resources/HT019578856> <http://schema.org/sourceOrganization> <http://lobid.org/organisations/DE-5-141#!> .
+<http://lobid.org/resources/HT019578856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/lobid/lv#BibliographicDescription> .
+<http://lobid.org/resources/HT019578856> <http://www.w3.org/2000/01/rdf-schema#label> "Webseite der hbz-Ressource HT019578856" .
+<http://lobid.org/resources/TT003060418#!> <http://id.loc.gov/ontologies/bibframe/contribution> _:bnodeDummy .
+<http://lobid.org/resources/TT003060418#!> <http://id.loc.gov/ontologies/bibframe/extent> "3 CDs : stereo ; ADD" .
+<http://lobid.org/resources/TT003060418#!> <http://id.loc.gov/ontologies/bibframe/note> "AD: 9+10/1958" .
+<http://lobid.org/resources/TT003060418#!> <http://id.loc.gov/ontologies/bibframe/responsibilityStatement> "Charles Gounod. Jules Barbier [Libretto] ; Michel Carre [Libretto]. Andre Cluytens [Dir.]. Victoria de Los Angeles [Sopr] ; Niccolai Gedda [Ten] ; Ernest Blanc [Bariton] ; Boris Christoff [Baß]. Orchestre et Choeurs du Theatre National de l Opera" .
+<http://lobid.org/resources/TT003060418#!> <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-2/fra> .
+<http://lobid.org/resources/TT003060418#!> <http://purl.org/dc/terms/medium> <http://purl.org/ontology/bibo/AudioDocument> .
+<http://lobid.org/resources/TT003060418#!> <http://purl.org/dc/terms/medium> <http://rdaregistry.info/termList/RDAMediaType/1003> .
+<http://lobid.org/resources/TT003060418#!> <http://purl.org/dc/terms/medium> <http://rdaregistry.info/termList/RDAproductionMethod/1010> .
+<http://lobid.org/resources/TT003060418#!> <http://purl.org/dc/terms/title> "Faust" .
+<http://lobid.org/resources/TT003060418#!> <http://purl.org/lobid/lv#exampleOfWork> _:bnodeDummy .
+<http://lobid.org/resources/TT003060418#!> <http://purl.org/lobid/lv#hbzID> "TT003060418" .
+<http://lobid.org/resources/TT003060418#!> <http://rdaregistry.info/Elements/u/P60493> "Oper in fünf Akten" .
+<http://lobid.org/resources/TT003060418#!> <http://schema.org/publication> _:bnodeDummy .
+<http://lobid.org/resources/TT003060418#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/BibliographicResource> .
+<http://lobid.org/resources/TT003060418#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/lobid/lv#Miscellaneous> .
+<http://lobid.org/resources/TT003060418#!> <http://www.w3.org/2002/07/owl#sameAs> <http://hub.culturegraph.org/resource/HBZ-TT003060418> .
+<http://lobid.org/resources/TT003060418#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/resources/TT003060418> .
+<http://lobid.org/resources/TT003060418> <http://purl.org/dc/terms/created> "20110411" .
+<http://lobid.org/resources/TT003060418> <http://purl.org/lobid/lv#inDataset> <http://lobid.org/resources/dataset#!> .
+<http://lobid.org/resources/TT003060418> <http://purl.org/lobid/lv#resultOf> _:bnodeDummy .
+<http://lobid.org/resources/TT003060418> <http://schema.org/license> <http://creativecommons.org/publicdomain/zero/1.0> .
+<http://lobid.org/resources/TT003060418> <http://schema.org/provider> <http://lobid.org/organisations/DE-5#!> .
+<http://lobid.org/resources/TT003060418> <http://schema.org/sourceOrganization> <http://lobid.org/organisations/DE-5#!> .
+<http://lobid.org/resources/TT003060418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/lobid/lv#BibliographicDescription> .
+<http://lobid.org/resources/TT003060418> <http://www.w3.org/2000/01/rdf-schema#label> "Webseite der hbz-Ressource TT003060418" .
+<http://lobid.org/resources/dataset#!> <http://www.w3.org/2000/01/rdf-schema#label> "lobid-resources \u2013 Der hbz-Verbundkatalog als Linked Open Data" .
+<http://nbn-resolving.de/urn:nbn:de:hbz:929:02-edoweb:70119907> <http://www.w3.org/2000/01/rdf-schema#label> "urn:nbn:de:hbz:929:02-edoweb:70119907" .
+<http://purl.org/lobid/rpb#n404320> <http://id.loc.gov/ontologies/bibframe/source> <https://w3id.org/lobid/rpb> .
+<http://purl.org/lobid/rpb#n404320> <http://www.w3.org/2000/01/rdf-schema#label> "Parlament / Geschichte" .
+<http://purl.org/lobid/rpb#n404320> <http://www.w3.org/2004/02/skos/core#notation> "404320" .
+<http://purl.org/ontology/bibo/AudioDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Audio-Dokument" .
+<http://rdaregistry.info/termList/RDACarrierType/1018> <http://www.w3.org/2000/01/rdf-schema#label> "Online-Ressource" .
+<http://rdaregistry.info/termList/RDAMediaType/1003> <http://www.w3.org/2000/01/rdf-schema#label> "Datenträger" .
+<http://rdaregistry.info/termList/RDAproductionMethod/1010> <http://www.w3.org/2000/01/rdf-schema#label> "Print" .
+<http://www.wikidata.org/entity/Q365> <http://schema.org/geo> _:bnodeDummy .
+<http://www.wikidata.org/entity/Q365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q1549591> .
+<http://www.wikidata.org/entity/Q365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q1637706> .
+<http://www.wikidata.org/entity/Q365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q200250> .
+<http://www.wikidata.org/entity/Q365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q2202509> .
+<http://www.wikidata.org/entity/Q365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q22865> .
+<http://www.wikidata.org/entity/Q365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q515> .
+<http://www.wikidata.org/entity/Q365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q707813> .
+<https://d-nb.info/gnd/1068655429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/1068655429> <http://www.w3.org/2000/01/rdf-schema#label> "Avelar, Juanito Ornelas de" .
+<https://d-nb.info/gnd/1068655429> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "1068655429" .
+<https://d-nb.info/gnd/1071861417> <http://www.w3.org/2000/01/rdf-schema#label> "Konferenzschrift" .
+<https://d-nb.info/gnd/109728068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/109728068> <http://www.w3.org/2000/01/rdf-schema#label> "Lehndorff-Felsko, Angelika" .
+<https://d-nb.info/gnd/109728068> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "109728068" .
+<https://d-nb.info/gnd/110670396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/110670396> <http://www.w3.org/2000/01/rdf-schema#label> "Hexemer, Hans-Peter" .
+<https://d-nb.info/gnd/110670396> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "110670396" .
+<https://d-nb.info/gnd/1139979302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#ConferenceOrEvent> .
+<https://d-nb.info/gnd/1139979302> <http://www.w3.org/2000/01/rdf-schema#label> "70 Jahre Parlament in Rheinland-Pfalz (Veranstaltung : 2016 : Koblenz)" .
+<https://d-nb.info/gnd/1139979302> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "1139979302" .
+<https://d-nb.info/gnd/118718312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/118718312> <http://www.w3.org/2000/01/rdf-schema#label> "Gounod, Charles" .
+<https://d-nb.info/gnd/118718312> <https://d-nb.info/standards/elementset/gnd#dateOfBirth> "1818" .
+<https://d-nb.info/gnd/118718312> <https://d-nb.info/standards/elementset/gnd#dateOfDeath> "1893" .
+<https://d-nb.info/gnd/118718312> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "118718312" .
+<https://d-nb.info/gnd/119309998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/119309998> <http://www.w3.org/2000/01/rdf-schema#label> "Barbier, Jules" .
+<https://d-nb.info/gnd/119309998> <http://www.w3.org/2000/01/rdf-schema#label> "Gounod, Felix-Charles, Gounod, ..., Gounod, Carlo, Gounod, C., Gounod, Felix Charles, Gounod, Charles Francois, Gounod, Charles François, Gounod, Charles-François, Gounod, Ch., Bach-Gounod, ..., Gounod, Charles François, Barbier, Jules" .
+<https://d-nb.info/gnd/119309998> <https://d-nb.info/standards/elementset/gnd#dateOfBirth> "1825" .
+<https://d-nb.info/gnd/119309998> <https://d-nb.info/standards/elementset/gnd#dateOfDeath> "1901" .
+<https://d-nb.info/gnd/119309998> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "119309998" .
+<https://d-nb.info/gnd/119374536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/119374536> <http://www.w3.org/2000/01/rdf-schema#label> "Barbier, Giulio, Barbier, P. Jules, Barber, Jules, Barbier, P.-J., Barbier, J., Barbier, Julius, Barbier, Michel, Barbier, Paul Jules, Barbier, Jules Paul, Barbier, Paul-Jules, Carré, Michel" .
+<https://d-nb.info/gnd/119374536> <http://www.w3.org/2000/01/rdf-schema#label> "Carré, Michel" .
+<https://d-nb.info/gnd/119374536> <https://d-nb.info/standards/elementset/gnd#dateOfBirth> "1819" .
+<https://d-nb.info/gnd/119374536> <https://d-nb.info/standards/elementset/gnd#dateOfDeath> "1872" .
+<https://d-nb.info/gnd/119374536> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "119374536" .
+<https://d-nb.info/gnd/120540215> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/120540215> <http://www.w3.org/2000/01/rdf-schema#label> "Gedda, Nicolai" .
+<https://d-nb.info/gnd/120540215> <http://www.w3.org/2000/01/rdf-schema#label> "Losangeles, Victoria De, Delosangeles, Victoria, Gedda, Nicolai" .
+<https://d-nb.info/gnd/120540215> <https://d-nb.info/standards/elementset/gnd#dateOfBirth> "1925" .
+<https://d-nb.info/gnd/120540215> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "120540215" .
+<https://d-nb.info/gnd/15821563X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/15821563X> <http://www.w3.org/2000/01/rdf-schema#label> "Nimbkar, Jai" .
+<https://d-nb.info/gnd/15821563X> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "15821563X" .
+<https://d-nb.info/gnd/158215648> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/158215648> <http://www.w3.org/2000/01/rdf-schema#label> "Berntsen, Maxine" .
+<https://d-nb.info/gnd/158215648> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "158215648" .
+<https://d-nb.info/gnd/16294456-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#CorporateBody> .
+<https://d-nb.info/gnd/16294456-1> <http://www.w3.org/2000/01/rdf-schema#label> "Orchestre et Choeurs du Theatre National de L Opera" .
+<https://d-nb.info/gnd/16294456-1> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "16294456-1" .
+<https://d-nb.info/gnd/183785592> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/183785592> <http://www.w3.org/2000/01/rdf-schema#label> "Carré, ..., Carré, M., Kārre, M., Carré, Michael, Carré, Michele, Carré, Michel Florentin, Carré, Michel-Florentin, Cluytens, André" .
+<https://d-nb.info/gnd/183785592> <http://www.w3.org/2000/01/rdf-schema#label> "Cluytens, André" .
+<https://d-nb.info/gnd/183785592> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "183785592" .
+<https://d-nb.info/gnd/185493769> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/185493769> <http://www.w3.org/2000/01/rdf-schema#label> "Ornelas de Avelar, Juanito, Álvarez López, Laura" .
+<https://d-nb.info/gnd/185493769> <http://www.w3.org/2000/01/rdf-schema#label> "Álvarez López, Laura" .
+<https://d-nb.info/gnd/185493769> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "185493769" .
+<https://d-nb.info/gnd/186200862> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/186200862> <http://www.w3.org/2000/01/rdf-schema#label> "Angeles, Victoria De Los" .
+<https://d-nb.info/gnd/186200862> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "186200862" .
+<https://d-nb.info/gnd/186218648> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/186218648> <http://www.w3.org/2000/01/rdf-schema#label> "Christoff, Boris" .
+<https://d-nb.info/gnd/186218648> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "186218648" .
+<https://d-nb.info/gnd/186257317> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Person> .
+<https://d-nb.info/gnd/186257317> <http://www.w3.org/2000/01/rdf-schema#label> "Blanc, Ernest" .
+<https://d-nb.info/gnd/186257317> <http://www.w3.org/2000/01/rdf-schema#label> "Gädda, Harry Gustaf Nikolaj, Gädda, Harry Gustaf Nikolaj, Gedda, Nicolai, Blanc, Ernest" .
+<https://d-nb.info/gnd/186257317> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "186257317" .
+<https://d-nb.info/gnd/2029773-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#CorporateBody> .
+<https://d-nb.info/gnd/2029773-7> <http://www.w3.org/2000/01/rdf-schema#label> "70 Jahre Parlament in Rheinland-Pfalz. Festveranstaltung am 22. November 2016 im Stadttheater Koblenz (Veranstaltung : 2016 : Koblenz)" .
+<https://d-nb.info/gnd/2029773-7> <https://d-nb.info/standards/elementset/gnd#gndIdentifier> "2029773-7" .
+<https://d-nb.info/gnd/4142300-8> <http://www.w3.org/2000/01/rdf-schema#label> "Amtliche Publikation" .
+<https://d-nb.info/gnd/4149423-4> <http://www.w3.org/2000/01/rdf-schema#label> "Dewey-Dezimalklassifikation" .
+<https://datahub.io/dataset/hbz_unioncatalog> <http://www.w3.org/2000/01/rdf-schema#label> "hbz_unioncatalog" .
+<https://github.com/hbz/lobid-resources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SoftwareApplication> .
+<https://github.com/hbz/lobid-resources> <http://www.w3.org/2000/01/rdf-schema#label> "Software lobid-resources" .
+<https://nwbib.de/spatial#Q365> <http://id.loc.gov/ontologies/bibframe/source> <https://nwbib.de/spatial> .
+<https://nwbib.de/spatial#Q365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://nwbib.de/spatial#Q365> <http://www.w3.org/2000/01/rdf-schema#label> "Köln" .
+<https://nwbib.de/spatial#Q365> <http://www.w3.org/2004/02/skos/core#notation> "05315" .
+<https://nwbib.de/spatial#Q365> <http://xmlns.com/foaf/0.1/focus> <http://www.wikidata.org/entity/Q365> .
+<https://nwbib.de/spatial> <http://www.w3.org/2000/01/rdf-schema#label> "Raumsystematik der Nordrhein-Westfälischen Bibliographie" .
+<https://nwbib.de/subjects#N240000> <http://id.loc.gov/ontologies/bibframe/source> <https://nwbib.de/subjects> .
+<https://nwbib.de/subjects#N240000> <http://www.w3.org/2000/01/rdf-schema#label> "Geschichte" .
+<https://nwbib.de/subjects#N240000> <http://www.w3.org/2004/02/skos/core#notation> "240000" .
+<https://nwbib.de/subjects> <http://www.w3.org/2000/01/rdf-schema#label> "Sachsystematik der Nordrhein-Westfälischen Bibliographie" .
+<https://w3id.org/lobid/rpb2#n106> <http://id.loc.gov/ontologies/bibframe/source> <https://w3id.org/lobid/rpb2> .
+<https://w3id.org/lobid/rpb2#n106> <http://www.w3.org/2000/01/rdf-schema#label> "Amtsdruckschriften Rheinland-Pfalz" .
+<https://w3id.org/lobid/rpb2#n106> <http://www.w3.org/2004/02/skos/core#notation> "106" .
+<https://w3id.org/lobid/rpb2#n130> <http://id.loc.gov/ontologies/bibframe/source> <https://w3id.org/lobid/rpb2> .
+<https://w3id.org/lobid/rpb2#n130> <http://www.w3.org/2000/01/rdf-schema#label> "Landeskunde Region Koblenz" .
+<https://w3id.org/lobid/rpb2#n130> <http://www.w3.org/2004/02/skos/core#notation> "130" .
+<https://w3id.org/lobid/rpb2#n131> <http://id.loc.gov/ontologies/bibframe/source> <https://w3id.org/lobid/rpb2> .
+<https://w3id.org/lobid/rpb2#n131> <http://www.w3.org/2000/01/rdf-schema#label> "Landeskunde Pfalz" .
+<https://w3id.org/lobid/rpb2#n131> <http://www.w3.org/2004/02/skos/core#notation> "131" .
+<https://w3id.org/lobid/rpb2#n139> <http://id.loc.gov/ontologies/bibframe/source> <https://w3id.org/lobid/rpb2> .
+<https://w3id.org/lobid/rpb2#n139> <http://www.w3.org/2000/01/rdf-schema#label> "Belegexemplare Rheinland-Pfalz" .
+<https://w3id.org/lobid/rpb2#n139> <http://www.w3.org/2004/02/skos/core#notation> "139" .
+<https://w3id.org/lobid/rpb2#n147> <http://id.loc.gov/ontologies/bibframe/source> <https://w3id.org/lobid/rpb2> .
+<https://w3id.org/lobid/rpb2#n147> <http://www.w3.org/2000/01/rdf-schema#label> "Pflichtexemplar Rheinhessen" .
+<https://w3id.org/lobid/rpb2#n147> <http://www.w3.org/2004/02/skos/core#notation> "147" .
+<https://w3id.org/lobid/rpb2#n330> <http://id.loc.gov/ontologies/bibframe/source> <https://w3id.org/lobid/rpb2> .
+<https://w3id.org/lobid/rpb2#n330> <http://www.w3.org/2000/01/rdf-schema#label> "Geschichte" .
+<https://w3id.org/lobid/rpb2#n330> <http://www.w3.org/2004/02/skos/core#notation> "330" .
+<https://w3id.org/lobid/rpb2#n610> <http://id.loc.gov/ontologies/bibframe/source> <https://w3id.org/lobid/rpb2> .
+<https://w3id.org/lobid/rpb2#n610> <http://www.w3.org/2000/01/rdf-schema#label> "Politik" .
+<https://w3id.org/lobid/rpb2#n610> <http://www.w3.org/2004/02/skos/core#notation> "610" .
+<https://w3id.org/lobid/rpb2> <http://www.w3.org/2000/01/rdf-schema#label> "RPB-Sachgruppen und Zusätze" .
+<https://w3id.org/lobid/rpb> <http://www.w3.org/2000/01/rdf-schema#label> "Systematik der Rheinland-Pfälzischen Bibliographie" .
+<https://www.edoweb-rlp.de/resource/edoweb:7011990> <http://www.w3.org/2000/01/rdf-schema#label> "Edoweb" .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/1068655429> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/109728068> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/110670396> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/1139979302> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/118718312> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/119309998> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/119374536> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/120540215> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/15821563X> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/158215648> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/16294456-1> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/183785592> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/185493769> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/186200862> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/186218648> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/186257317> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/agent> <https://d-nb.info/gnd/2029773-7> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/role> <http://id.loc.gov/vocabulary/relators/cmp> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/role> <http://id.loc.gov/vocabulary/relators/cnd> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/role> <http://id.loc.gov/vocabulary/relators/cre> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/role> <http://id.loc.gov/vocabulary/relators/ctb> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/role> <http://id.loc.gov/vocabulary/relators/edt> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/role> <http://id.loc.gov/vocabulary/relators/isb> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/role> <http://id.loc.gov/vocabulary/relators/lbt> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/role> <http://id.loc.gov/vocabulary/relators/sng> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/source> <https://d-nb.info/gnd/4149423-4> .
+_:bnodeDummy <http://id.loc.gov/ontologies/bibframe/source> _:bnodeDummy .
+_:bnodeDummy <http://purl.org/lobid/lv#hasSuperordinate> <http://lobid.org/resources/HT006514951#!> .
+_:bnodeDummy <http://purl.org/lobid/lv#hasSuperordinate> <http://lobid.org/resources/HT017500108#!> .
+_:bnodeDummy <http://purl.org/lobid/lv#hasSuperordinate> <http://lobid.org/resources/HT019378259#!> .
+_:bnodeDummy <http://purl.org/lobid/lv#hasSuperordinate> _:bnodeDummy .
+_:bnodeDummy <http://purl.org/lobid/lv#numbering> "19" .
+_:bnodeDummy <http://purl.org/lobid/lv#numbering> "2" .
+_:bnodeDummy <http://purl.org/lobid/lv#numbering> "Heft 67" .
+_:bnodeDummy <http://schema.org/endTime> "0001-01-01T00:00:00" .
+_:bnodeDummy <http://schema.org/instrument> <https://github.com/hbz/lobid-resources> .
+_:bnodeDummy <http://schema.org/latitude> "5.0942222222222E1"^^<http://www.w3.org/2001/XMLSchema#double> .
+_:bnodeDummy <http://schema.org/location> "EMI Records Ltd, p 1969" .
+_:bnodeDummy <http://schema.org/location> "Frankfurt am Main" .
+_:bnodeDummy <http://schema.org/location> "Köln" .
+_:bnodeDummy <http://schema.org/location> "Mainz" .
+_:bnodeDummy <http://schema.org/location> "Philadelphia" .
+_:bnodeDummy <http://schema.org/longitude> "6.9577777777778E0"^^<http://www.w3.org/2001/XMLSchema#double> .
+_:bnodeDummy <http://schema.org/object> <http://lobid.org/hbz01/HT018290299> .
+_:bnodeDummy <http://schema.org/object> <http://lobid.org/hbz01/HT018939763> .
+_:bnodeDummy <http://schema.org/object> <http://lobid.org/hbz01/HT019440025> .
+_:bnodeDummy <http://schema.org/object> <http://lobid.org/hbz01/HT019578856> .
+_:bnodeDummy <http://schema.org/object> <http://lobid.org/hbz01/TT003060418> .
+_:bnodeDummy <http://schema.org/publishedBy> "EMI Records" .
+_:bnodeDummy <http://schema.org/publishedBy> "Emons" .
+_:bnodeDummy <http://schema.org/publishedBy> "Landtag Rheinland-Pfalz" .
+_:bnodeDummy <http://schema.org/publishedBy> "Peter Lang Edition" .
+_:bnodeDummy <http://schema.org/publishedBy> "University of Pennsylvania, Department of South Asia Regional Studies" .
+_:bnodeDummy <http://schema.org/startDate> "1975" .
+_:bnodeDummy <http://schema.org/startDate> "1994" .
+_:bnodeDummy <http://schema.org/startDate> "2014" .
+_:bnodeDummy <http://schema.org/startDate> "2015" .
+_:bnodeDummy <http://schema.org/startDate> "2017" .
+_:bnodeDummy <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:bnodeDummy .
+_:bnodeDummy <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:bnodeDummy <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bnodeDummy .
+_:bnodeDummy <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.loc.gov/ontologies/bibframe/Contribution> .
+_:bnodeDummy <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/lobid/lv#IsPartOfRelation> .
+_:bnodeDummy <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreateAction> .
+_:bnodeDummy <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PublicationEvent> .
+_:bnodeDummy <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://d-nb.info/standards/elementset/gnd#Work> .
+_:bnodeDummy <http://www.w3.org/2000/01/rdf-schema#label> "Faust" .
+_:bnodeDummy <http://www.w3.org/2000/01/rdf-schema#label> "Geografie Mitteleuropas und Reisen in Mitteleuropa" .
+_:bnodeDummy <http://www.w3.org/2000/01/rdf-schema#label> "Marathi teaching materials / Berntsen, Maxine" .
+_:bnodeDummy <http://www.w3.org/2000/01/rdf-schema#label> "Politikwissenschaft (Politik und Regierung)" .
+_:bnodeDummy <http://www.w3.org/2000/01/rdf-schema#label> "RPB-Raumsystematik" .
+_:bnodeDummy <http://www.w3.org/2004/02/skos/core#notation> "320" .
+_:bnodeDummy <http://www.w3.org/2004/02/skos/core#notation> "491.4682421" .
+_:bnodeDummy <http://www.w3.org/2004/02/skos/core#notation> "914.3" .
+_:bnodeDummy <http://www.w3.org/2004/02/skos/core#notation> "rpbr_01_" .
+_:bnodeDummy <http://www.w3.org/2004/02/skos/core#notation> "rpbr_99_o31500000_" .

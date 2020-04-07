@@ -13,9 +13,11 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
 		org.lobid.resources.Hbz01MabXmlEtlNtriples2Filesystem.class,
 		org.lobid.resources.Hbz01MabXml2ElasticsearchLobidTest.class,
+		org.lobid.resources.Hbz01WhitelistUndifferentiatedPersonsTest.class,
 		TestGenerateContext.class,
 		org.lobid.resources.Hbz01MabXmlDeletions2ElasticsearchTest.class,
-		org.lobid.resources.LocBibframeInstances2ElasticsearchTest.class })
+		org.lobid.resources.LocBibframeInstances2ElasticsearchTest.class
+		 })
 
 public final class UnitTests {
 	/* Suite class, groups tests via annotation above */
