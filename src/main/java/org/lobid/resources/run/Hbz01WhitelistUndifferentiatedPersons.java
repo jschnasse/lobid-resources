@@ -97,19 +97,21 @@ public class Hbz01WhitelistUndifferentiatedPersons {
 		lookupMabxmlDeletion = Boolean.parseBoolean(
 				System.getProperty("lookupMabxmlDeletion", "false"));
 
-		opener.setReceiver(new TarReader()).setReceiver(new RecordReader())
-				.setReceiver(new ObjectThreader<String>())//
-				.addReceiver(receiverThread())//
-				.addReceiver(receiverThread())//
-				.addReceiver(receiverThread())//
-				.addReceiver(receiverThread())//
-				.addReceiver(receiverThread())//
-				.addReceiver(receiverThread());
 		try {
+			opener.setReceiver(new TarReader()).setReceiver(new RecordReader())
+					.setReceiver(new ObjectThreader<String>())//
+					.addReceiver(receiverThread())//
+					.addReceiver(receiverThread())//
+					.addReceiver(receiverThread())//
+					.addReceiver(receiverThread())//
+					.addReceiver(receiverThread())//
+					.addReceiver(receiverThread());
 			opener.process(new File(inputPath).getAbsolutePath());
 			opener.closeStream();
 		} catch (Exception e) {
 			e.printStackTrace();
+		} catch (StackOverflowError e) {
+			e.getStackTrace();
 		}
 	}
 
